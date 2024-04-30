@@ -146,7 +146,9 @@
           "data": {
             "condition": "AND",
             "children": [
-              {}
+              {
+                "condition": "LT"
+              }
             ]
           },
           "viewType": "component",
@@ -160,6 +162,7 @@
       }
     },
     "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],

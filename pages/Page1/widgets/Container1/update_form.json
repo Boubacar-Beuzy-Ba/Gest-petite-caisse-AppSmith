@@ -22,7 +22,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData[\"N°\"]))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "N°",
                 "isVisible": true,
                 "label": "N",
@@ -33,8 +33,8 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 1,
+                "fieldType": "Number Input"
             },
             "Montant": {
                 "labelTextSize": "0.875rem",
@@ -44,7 +44,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Montant))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(update_form.sourceData, update_form.formData, update_form.fieldState)}}",
-                "dataType": "string",
+                "dataType": "number",
                 "accessor": "Montant",
                 "isVisible": true,
                 "label": "Montant",
@@ -55,8 +55,8 @@
                 "iconAlign": "left",
                 "position": 5,
                 "isDisabled": false,
-                "sourceData": "",
-                "fieldType": "Text Input"
+                "sourceData": 200000,
+                "fieldType": "Number Input"
             },
             "Type": {
                 "labelTextSize": "0.875rem",
